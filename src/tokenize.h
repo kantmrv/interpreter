@@ -279,6 +279,7 @@ int tokenize(const char *file_contents)
 						break;
 					}
 				}
+				
 				char *string = malloc(size + 1);
 				memcpy(string, &file_contents[i], size);
 				string[size] = '\0';
